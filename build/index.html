@@ -1,0 +1,36 @@
+Html Webpack Plugin:
+<pre>
+  Error: Parse Error: <link font-family: "Montserrat", sans-serif;
+      href="https://fonts.googleapis.com/css?family=McLaren|Montserrat&display=swap"
+      rel="stylesheet" />
+      <link rel="stylesheet" href="styles.css" />
+     <link id="external-css" rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap" media="al  l">
+  </head>
+    <body>
+      <div id="root"></div>
+      <script src="../src/index.js" type="text/jsx"></script>
+    <script>!function(e){function t(t){for(var n,i,l=t[0],p=t[1],a=t[2],f=0,s=[];f<l.length;f++)i=l[f],Object.prototype.hasOwnProperty.call(o,i)&&  o[i]&&s.push(o[i][0]),o[i]=0;for(n in p)Object.prototype.hasOwnProperty.call(p,n)&&(e[n]=p[n]);for(c&&c(t);s.length;)s.shift()();return u.push.a  pply(u,a||[]),r()}function r(){for(var e,t=0;t<u.length;t++){for(var r=u[t],n=!0,l=1;l<r.length;l++){var p=r[l];0!==o[p]&&(n=!1)}n&&(u.splice(t-  -,1),e=i(i.s=r[0]))}return e}var n={},o={1:0},u=[];function i(t){if(n[t])return n[t].exports;var r=n[t]={i:t,l:!1,exports:{}};return e[t].call(r  .exports,r,r.exports,i),r.l=!0,r.exports}i.m=e,i.c=n,i.d=function(e,t,r){i.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},i.r=functio  n(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__es  Module",{value:!0})},i.t=function(e,t){if(1&t&&(e=i(e)),8&t)return e;if(4&t&&"object"===typeof e&&e&&e.__esModule)return e;var r=Object.create(n  ull);if(i.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var n in e)i.d(r,n,function(t){return e[t]  }.bind(null,n));return r},i.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(t,"a",t),t},i.o=fun  ction(e,t){return Object.prototype.hasOwnProperty.call(e,t)},i.p="/";var l=this["webpackJsonpusing-pre-built-react-components"]=this["webpackJso  npusing-pre-built-react-components"]||[],p=l.push.bind(l);l.push=t,l=l.slice();for(var a=0;a<l.length;a++)t(l[a]);var c=p;r()}([]);
+  //# sourceMappingURL=runtime-main.342c7561.js.map</script><script src="/static/js/2.cd84f153.chunk.js"></script><script src="/static/js/main.882  cd05f.chunk.js"></script></body>
+  </html>
+  
+  - htmlparser.js:244 new HTMLParser
+    [Notes App]/[html-minifier-terser]/src/htmlparser.js:244:13
+  
+  - htmlminifier.js:993 minify
+    [Notes App]/[html-minifier-terser]/src/htmlminifier.js:993:3
+  
+  - htmlminifier.js:1354 Object.exports.minify
+    [Notes App]/[html-minifier-terser]/src/htmlminifier.js:1354:16
+  
+  - index.js:445 HtmlWebpackPlugin.postProcessHtml
+    [Notes App]/[html-webpack-plugin]/index.js:445:41
+  
+  - index.js:274 
+    [Notes App]/[html-webpack-plugin]/index.js:274:25
+  
+  - runMicrotasks
+  
+  - task_queues.js:97 processTicksAndRejections
+    internal/process/task_queues.js:97:5
+  
+</pre>
